@@ -21,6 +21,7 @@ module.exports = {
             exposes:{ //  作为容器，需要向外暴露的模块或者说组件 key就是别名 值就是本地引入的路径
                 "./dropdown": "./src/dropdown.js",
                 "./button": "./src/button.js",
+                "./store": "./src/store.js"
             },
             shared:["is-array"]
         }),
